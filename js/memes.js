@@ -6,6 +6,7 @@ function memeIt(memes){
 	var imgShortcut ="./img/";
 	img.setAttribute("class", "img-fluid");
 	img.src = imgShortcut.concat(randMeme);
+	document.getElementById("memesGoesHere").innerHTML = "";
 	document.getElementById("memesGoesHere").appendChild(img);
-	
+
 }
